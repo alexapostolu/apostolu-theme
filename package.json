@@ -1,0 +1,25 @@
+{
+	"name": "apostolu-theme",
+	"version": "0.1.0",
+	"publisher": "apostolu",
+	"engines": {
+		"vscode": "^1.80.0"
+	},
+	"license": "SEE LICENSE in LICENSE.txt",
+	"displayName": "Apostolu's Theme",
+	"description": "My dark theme.",
+	"categories": [ "Themes" ],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/alexapostolu/apostolu-theme.git"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Apostolu Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/apostolu-theme.json"
+			}
+		]
+	}
+}

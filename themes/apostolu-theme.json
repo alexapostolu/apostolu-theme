@@ -1,0 +1,156 @@
+{
+  "name": "Apostolu Theme",
+  "type": "dark",
+  "colors": {
+    "editorBracketHighlight.foreground1": "#808080",
+    "editorBracketHighlight.foreground2": "#808080",
+    "editorBracketHighlight.foreground3": "#808080",
+    "editorBracketHighlight.foreground4": "#808080",
+    "editorBracketHighlight.foreground5": "#808080",
+    "editorBracketHighlight.foreground6": "#808080"
+  },
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "namespace": "#da6925",
+    "method.classMember": "#ffaa00",
+    "function": "#ffaa00",
+    "function.declaration": "#ffaa00",
+    "function.definition": "#ffaa00",
+    "function.fileScope": "#ffaa00",
+    "function.globalScope": "#ffaa00",
+    "parameter": "#bbbbbb",
+    "parameter.parameter": "#bbbbbb",
+    "parameter.declaration": "#bbbbbb",
+    "parameter.definition": "#bbbbbb",
+    "parameter.functionScope": "#bbbbbb",
+    "variable": "#d1d1d1",
+    "variable.readonly": "#b078ff",
+    "variable.declaration": "#d1d1d1",
+    "variable.definition": "#d1d1d1",
+    "variable.functionScope": "#d1d1d1",
+    "variable.fileScope": "#d1d1d1",
+    "property.classScope": "#bbbbbb"
+  },
+  "tokenColors": [
+    {
+      "_comment": "Member Attributes",
+      "settings": { "foreground": "#bbbbbb" },
+      "scope": [
+        "meta.attribute.python"
+      ]
+    },
+    {
+      "_comment": "Doxygen",
+      "settings": { "foreground": "#c5c5c5" },
+      "scope": [
+        "keyword.codetag.notation.python",
+        "storage.type.class.doxygen.c",
+        "storage.type.class.doxygen.cpp",
+        "markup.inline.raw.string.cpp"
+      ]
+    },
+    {
+      "_comment": "Macro; mirrors variable.readonly",
+      "settings": { "foreground": "#b078ff" },
+      "scope": [
+        "constant.other.caps.python",
+        "entity.name.function.preprocessor.c"
+      ]
+    },
+    {
+      "_comment": "Comments and docstrings",
+      "settings": { "foreground": "#278e3e" },
+      "scope": [
+        "comment",
+        "string.quoted.docstring"
+      ]
+    },
+    {
+      "_comment": "Numeric Literal",
+      "settings": { "foreground": "#94b6a0" },
+      "scope": [
+        "constant.numeric.dec.python",
+        "constant.numeric.hex.python",
+        "constant.numeric.decimal.c",
+        "constant.numeric.hexadecimal.c"
+      ]
+    },
+    {
+      "_comment": "Symbol",
+      "settings": { "foreground": "#808080" },
+      "scope": [
+        "punctuation.separator.period.python",
+        "punctuation.separator.arguments.python",
+        "punctuation.separator.element.python",
+        "punctuation.separator.delimiter.c"
+
+      ]
+    },
+    {
+      "_comment": "String",
+      "settings": { "foreground": "#39bb5d" },
+      "scope": [
+        "string"
+      ]
+    },
+    {
+      "_comment": "Member Calls; mirrors function",
+      "settings": { "foreground": "#ffaa00" },
+      "scope": [
+        "meta.function-call",
+        "entity.name.function",
+        "support.function"
+      ]
+    },
+    {
+      "_comment": "Decorator",
+      "settings": { "foreground": "#ff7373" },
+      "scope": [
+        "storage.type.number.python",
+        "entity.name.function.decorator",
+        "keyword.other.unit.hexadecimal.c",
+        "keyword.other.unit.suffix.integer.c",
+      ]
+    },
+    {
+      "_comment": "Keyword",
+      "settings": { "foreground": "#00bcff" },
+      "scope": [
+        "keyword",
+        "storage.type",
+        "constant.language",
+        "keyword.operator.logical.python",
+        "storage.modifier.c",
+        "storage.modifier.specifier.const.cpp"
+      ]
+    },
+    {
+      "_comment": "Keyword Operator",
+      "settings": { "foreground": "#baB8b8" },
+      "scope": [
+        "keyword.operator"
+      ]
+    },
+    {
+      "_comment": "Binding Construct",
+      "settings": { "foreground": "#c56098" },
+      "scope": [
+        "storage.type.function",
+        "keyword.control.import",
+        "keyword.control.directive.define.c",
+        "keyword.control.directive.include.c",
+        "punctuation.definition.directive.c",
+        "keyword.control.directive.conditional.c"
+      ]
+    },
+    {
+      "_comment": "File/Namespace",
+      "settings": { "foreground": "#da6925" },
+      "scope": [
+        "string.quoted.other.lt-gt.include.c",
+        "string.quoted.double.include.c",
+        "string.quoted.other.lt-gt.include.cpp"
+      ]
+    }
+  ]
+}
