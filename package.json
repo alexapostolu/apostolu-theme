@@ -1,14 +1,19 @@
 {
-	"name": "apostolu-theme",
-	"version": "0.1.0",
+	"name": "apostolu-dark-theme",
+	"version": "0.2.0",
 	"publisher": "apostolu",
 	"engines": {
 		"vscode": "^1.80.0"
 	},
-	"license": "SEE LICENSE in LICENSE.txt",
+	"license": "MIT",
 	"displayName": "Apostolu's Theme",
-	"description": "My dark theme.",
-	"categories": [ "Themes" ],
+	"description": "My dark theme for Python and C, packaged with clangd and Python.",
+	"categories": [ "Themes", "Extension Packs" ],
+	"extensionPack": [
+		"llvm-vs-code-extensions.vscode-clangd",
+		"anysphere.cursorpyright",
+		"ms-python.python"
+	],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/alexapostolu/apostolu-theme.git"
